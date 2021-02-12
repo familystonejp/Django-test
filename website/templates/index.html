@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block  main %}
+<h1>{{username}}さんようこそ！</h1>
+<p>{% now '20y年m月d日h時i分' %}</p>
+<img src="{% static 'laughingman_face with alpha_2_1000.png' %}" width="50%" height="50%"/>
+{% endblock %}

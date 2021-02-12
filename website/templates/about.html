@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block  main %}
+<h1>実績</h1>
+<h2>昨年かかわったイベント</h2>
+<h3>オペレート</h3>
+<ul>
+    {% for skill in skills %}
+    <li><b>{{ skill }}</b></li>
+    {% endfor %}
+</ul>
+
+<img src="{% static 'laughingman_face with alpha_2_1000.png' %}" width="50%" height="50%"/>
+{% endblock %}
