@@ -1,1 +1,1 @@
-web: gunicorn youtubetest.wsgi
+web: gunicorn django_website.wsgi
